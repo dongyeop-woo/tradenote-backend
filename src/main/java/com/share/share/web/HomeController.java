@@ -14,8 +14,8 @@ public class HomeController {
             "version", "0.0.1",
             "endpoints", Map.of(
                 "auth", "/api/auth",
-                "community", "/api/community",
-                "trades", "/api/trades"
+                "trades", "/api/trades",
+                "favorites", "/api/favorites"
             )
         );
     }
